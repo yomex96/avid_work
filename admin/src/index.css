@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroBg {
+    background-image: url('/AvidLogo.png');
+  }
+
+.active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid #A9785D;
+  color: #A9785D;
+}
+
+.bgOverlayEffect{
+  animation: bgOverlayEffect 2s infinite linear;
+  background: linear-gradient(to right, #2c2c2c 4%, #333 25% #2c2c2c 36%);
+  background-size: 1000px 100%;
+}
+
+@keyframes bgOverlayEffect{
+  0% { 
+    background-position: -1000px 0; 
+  }
+  100% { 
+    background-position: 1000px 0; 
+  }
+}

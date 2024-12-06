@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroBg {
+    background-image: url('/hero2.png');
+  }
+
+.active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid #A9785D;
+  color: #A9785D;
+}
